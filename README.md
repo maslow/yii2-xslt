@@ -1,51 +1,39 @@
-Yii 2 Advanced Application Template
+Easy Yii 2  Application Template
 ===================================
 
-Yii 2 Advanced Application Template is a skeleton Yii 2 application best for
-developing complex Web applications with multiple tiers.
+Easy Yii 2  Application Template is a skeleton Yii 2 application easier for
+developing complex Web applications.
 
-The template includes three tiers: front end, back end, and console, each of which
+The template includes two tiers: front end and  back end, each of which
 is a separate Yii application.
 
-The template is designed to work in a team development environment. It supports
-deploying the application in different environments.
-
+The template is designed to work easily and extensible!
 
 DIRECTORY STRUCTURE
 -------------------
 
 ```
 common
+    components/          contains user-defined components
     config/              contains shared configurations
-    mail/                contains view files for e-mails
     models/              contains model classes used in both backend and frontend
-console
-    config/              contains console configurations
-    controllers/         contains console controllers (commands)
-    migrations/          contains database migrations
-    models/              contains console-specific model classes
-    runtime/             contains files generated during runtime
 backend
-    assets/              contains application assets such as JavaScript and CSS
     config/              contains backend configurations
     controllers/         contains Web controller classes
     models/              contains backend-specific model classes
     runtime/             contains files generated during runtime
-    views/               contains view files for the Web application
+    themes/              contains theme files for the Web application
     web/                 contains the entry script and Web resources
+    xmls/                contains the xml files for xslt
 frontend
-    assets/              contains application assets such as JavaScript and CSS
     config/              contains frontend configurations
     controllers/         contains Web controller classes
     models/              contains frontend-specific model classes
     runtime/             contains files generated during runtime
-    views/               contains view files for the Web application
+    themes/              contains theme files for the Web application
     web/                 contains the entry script and Web resources
-    widgets/             contains frontend widgets
+    xmls/                contains the xml files for xslt
 vendor/                  contains dependent 3rd-party packages
-environments/            contains environment-based overrides
-tests                    contains various tests for the advanced application
-    codeception/         contains tests developed with Codeception PHP Testing Framework
 ```
 
 
@@ -58,40 +46,11 @@ The minimum requirement by this application template that your Web server suppor
 INSTALLATION
 ------------
 
-### Install from an Archive File
-
-Extract the archive file downloaded from [yiiframework.com](http://www.yiiframework.com/download/) to
-a directory named `advanced` that is directly under the Web root.
-
+Extract the archive file downloaded from [https://github.com/Maslow/easy-yii2] .
 Then follow the instructions given in "GETTING STARTED".
-
-
-### Install via Composer
-
-If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
-at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
-
-You can then install the application using the following command:
-
-~~~
-php composer.phar global require "fxp/composer-asset-plugin:1.0.0-beta4"
-php composer.phar create-project --prefer-dist --stability=dev yiisoft/yii2-app-advanced advanced
-~~~
 
 
 GETTING STARTED
 ---------------
 
-After you install the application, you have to conduct the following steps to initialize
-the installed application. You only need to do these once for all.
-
-1. Run command `init` to initialize the application with a specific environment.
-2. Create a new database and adjust the `components['db']` configuration in `common/config/main-local.php` accordingly.
-3. Apply migrations with console command `yii migrate`. This will create tables needed for the application to work.
-4. Set document roots of your Web server:
-
-- for frontend `/path/to/yii-application/frontend/web/` and using the URL `http://frontend/`
-- for backend `/path/to/yii-application/backend/web/` and using the URL `http://backend/`
-
-To login into the application, you need to first sign up, with any of your email address, username and password.
-Then, you can login into the application with same email address and password at any time.
+After you install the application, you have to ... (To be continued)
