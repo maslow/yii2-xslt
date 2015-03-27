@@ -7,20 +7,36 @@ View component to integrate xslt with yii2.
  
   #config.php
   
+  
   return [
+  
        ...
+       
        'components' =>[
+       
            ...
+           
            'view' => [
+           
                'class'=>'app\components\View',
+               
                // 'xml' => 'xmls',
+               
                // 'onlyXML' => true
+               
                // 'enableHack' => false
+               
                //  defaultExtension => 'xsl'
+               
            ],
+           
            ...
+           
        ];
+       
        ...
+       
   ];
+  
  
  
