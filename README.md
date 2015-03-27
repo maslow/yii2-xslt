@@ -8,8 +8,7 @@ View component to integrate xslt with yii2.
   #config.php
   
   
-  return [
-  
+   return [
        ...
        
        'components' =>[
@@ -36,7 +35,7 @@ View component to integrate xslt with yii2.
        
        ...
        
-  ];
+   ];
   
  
  
